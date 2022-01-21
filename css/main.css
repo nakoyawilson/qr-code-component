@@ -37,6 +37,7 @@ body {
   margin: 9.5rem auto;
   padding: 1rem;
   border-radius: 20px;
+  box-shadow: 0 0.5rem 2rem hsla(220, 15%, 55%, 0.15);
 }
 
 /* QR Code Container */
