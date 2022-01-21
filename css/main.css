@@ -72,7 +72,16 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding: 0 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 769px) {
+  .card {
+    margin: 5.5rem auto;
+  }
 }
