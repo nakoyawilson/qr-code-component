@@ -1,3 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --font: "Outfit", sans-serif;
+  --ff-size: 15px;
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+/* CSS Reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+
+body {
+  background-color: var(--light-gray);
+  font-family: var(--font);
+  font-size: var(--ff-size);
+  font-weight: 400;
+  color: var(--grayish-blue);
+  text-align: center;
+}
+
+/* Card */
+
+.card {
+  background-color: var(--white);
+  width: min(85.1%, 20rem);
+  margin: 9.5rem auto;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+/* QR Code Container */
+
+.qr-code {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+/* Text Container */
+
+.text-container {
+  padding: 1.5rem 1rem;
+}
+
+.main-heading {
+  color: var(--dark-blue);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
 /* Footer Section */
 
 .attribution {
